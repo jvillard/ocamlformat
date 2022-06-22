@@ -33,9 +33,7 @@
   "OCamlFormat is a tool to automatically format OCaml code in a uniform style.")
  (depends
   (ocaml
-   (and
-    (>= 4.08)
-    (< 4.14)))
+   (>= 4.08))
   (alcotest :with-test)
   (base
    (and
@@ -77,9 +75,7 @@
   "OCamlFormat is a tool to automatically format OCaml code in a uniform style. This package defines a RPC interface to OCamlFormat")
  (depends
   (ocaml
-   (and
-    (>= 4.08)
-    (< 4.14)))
+   (>= 4.08))
   ocamlformat-rpc-lib
   (alcotest :with-test)
   (base
@@ -123,8 +119,6 @@
  (license MIT)
  (depends
   (ocaml
-   (and
-    (>= 4.08)
-    (< 4.14)))
+   (>= 4.08))
   csexp
   sexplib0))
